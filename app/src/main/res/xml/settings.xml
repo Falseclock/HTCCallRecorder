@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="recording_screen"
+    xmlns:recorder="http://schemas.android.com/apk/res/call.recorder">
+
+    <PreferenceCategory android:title="@string/recording_category">
+
+        <SwitchPreference
+            android:key="call_recording"
+            android:summary="@string/switch_summary"
+            android:title="@string/switch_title" />
+        <SwitchPreference
+            android:key="auto_recording"
+            android:summary="@string/auto_summary"
+            android:title="@string/auto_title" />
+    </PreferenceCategory>
+
+
+    <PreferenceCategory
+        android:key="storage_category"
+        android:title="@string/storage_category">
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/storage_category_entries"
+            android:entryValues="@array/storage_category_values"
+            android:key="storage_path"
+            android:summary="@string/storage_summary"
+            android:title="@string/storage_title" />
+    </PreferenceCategory>
+
+
+    <PreferenceCategory
+        android:key="filtering_category"
+        android:title="@string/filtering_category">
+
+    <!--<ListPreference
+        android:defaultValue="0"
+        android:entries="@array/RecordingSlot"
+        android:entryValues="@array/RecordingSlotVal"
+        android:key="recording_slot"
+        android:title="@string/recording_slot_title"/>-->
+
+        <MultiSelectListPreference
+            android:entries="@array/record_type_filter_entries"
+            android:entryValues="@array/record_type_filter_values"
+            android:key="record_type_filter"
+            android:title="@string/record_type_filter_title"/>
+
+        <ListPreference
+            android:entries="@array/RecordingCaller"
+            android:entryValues="@array/RecordingCallerVal"
+            android:key="record_callers_filter"
+            android:title="@string/record_callers_filter_title" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="auto_delete_category"
+        android:title="@string/auto_delete_category">
+        <ListPreference
+            android:entries="@array/RecordingDelete"
+            android:entryValues="@array/RecordingDeleteVal"
+            android:key="auto_delete"
+            android:title="@string/auto_delete_title" />
+    </PreferenceCategory>
+    <!--
+
+
+    <PreferenceCategory
+        android:key="autorecording_delete_cat"
+        android:title="@string/RecordingDeleteCat">
+
+        <htc.tweaker.preference.NumberPickerPreference
+            tweaker:defaultValue="50"
+            tweaker:hint="@string/messages_of"
+            android:entries="@array/RecordingDeleteCount"
+            android:key="tweak_call_recording_auto_delete_count"
+            android:summary="@string/save_last_summary"
+            android:title="@string/save_last" />
+        <htc.tweaker.preference.NumberPickerPreference
+            tweaker:defaultValue="30"
+            tweaker:hint="@string/days_of"
+            android:entries="@array/RecordingDeleteInterval"
+            android:key="tweak_call_recording_auto_delete_interval"
+            android:summary="@string/delete_after_summary"
+            android:title="@string/delete_after" />
+    </PreferenceCategory>
+
+</PreferenceCategory>
+
+-->
+
+</PreferenceScreen>

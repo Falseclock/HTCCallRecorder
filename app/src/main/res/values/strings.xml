@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">HTC Call Recorder</string>
+
+    <string name="recording_category">Recording</string>
+    <string name="switch_title">Voice Call Recording</string>
+    <string name="switch_summary">Enables or disables voice call recording</string>
+    <string name="auto_summary">Enables voice call auto recording.</string>
+    <string name="auto_title">Call Auto Recording</string>
+    <string name="storage_category">Storage options</string>
+    <string name="storage_summary"> </string>
+    <string name="storage_title">How to store records?</string>
+
+    <string name="storage_separate_dir">In Incoming &amp; Outgoing dirs</string>
+    <string name="storage_with_prefix">Add IN &amp; OUT to the file name</string>
+
+    <string name="filtering_category">Filtering options</string>
+    <string name="recording_slot_title">Select slot to record</string>
+    <string name="record_type_filter_title">Record calls by type</string>
+    <string name="record_callers_filter_title">Which callers to record?</string>
+    <string name="callers_filter_all">All type of callers</string>
+    <string name="callers_filter_known">Only from Phone Book</string>
+    <string name="callers_filter_unknown">Only unknown numbers</string>
+    <string name="auto_delete_category">Auto delete options</string>
+    <string name="auto_delete_title">Auto delete settings</string>
+    <string name="delete_none">Do not delete</string>
+    <string name="delete_by_count">By total max count</string>
+    <string name="delete_by_size">By total max size</string>
+
+    <string name="filter_incoming">All incoming calls</string>
+    <string name="filter_outgoing">All outgoing calls</string>
+    <string name="filter_entry_in">in</string>
+    <string name="filter_entry_out">out</string>
+    <string name="in">Incoming</string>
+    <string name="out">Outgoing</string>
+
+
+    <string name="zero">0</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="both_slots">Both slots</string>
+    <string name="slot1">Slot 1</string>
+    <string name="slot2">Slot 2</string>
+    <string name="text">Text</string>
+</resources>

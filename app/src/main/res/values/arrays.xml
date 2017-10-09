@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="storage_category_entries">
+        <item>@string/storage_with_prefix</item>
+        <item>@string/storage_separate_dir</item>
+    </string-array>
+    <string-array name="storage_category_values">
+        <item>@string/zero</item>
+        <item>@string/one</item>
+    </string-array>
+
+    <string-array name="record_type_filter_entries">
+        <item>@string/filter_incoming</item>
+        <item>@string/filter_outgoing</item>
+    </string-array>
+    <string-array name="record_type_filter_values">
+        <item>@string/filter_entry_in</item>
+        <item>@string/filter_entry_out</item>
+    </string-array>
+
+
+
+    <string-array name="RecordingSlotVal">
+        <item>@string/zero</item>
+        <item>@string/one</item>
+        <item>@string/two</item>
+    </string-array>
+    <string-array name="RecordingSlot">
+        <item>@string/both_slots</item>
+        <item>@string/slot1</item>
+        <item>@string/slot2</item>
+    </string-array>
+    <string-array name="RecordingFilterSums">
+        <item>incoming</item>
+        <item>outgoing</item>
+    </string-array>
+
+    <string-array name="RecordingCaller">
+        <item>@string/callers_filter_all</item>
+        <item>@string/callers_filter_known</item>
+        <item>@string/callers_filter_unknown</item>
+    </string-array>
+
+    <string-array name="RecordingCallerVal">
+        <item>@string/zero</item>
+        <item>@string/one</item>
+        <item>@string/two</item>
+    </string-array>
+
+    <string-array name="RecordingDelete">
+        <item>@string/delete_none</item>
+        <item>@string/delete_by_count</item>
+        <item>@string/delete_by_size</item>
+    </string-array>
+    <string-array name="RecordingDeleteVal">
+        <item>@string/zero</item>
+        <item>@string/one</item>
+        <item>@string/two</item>
+    </string-array>
+</resources>
